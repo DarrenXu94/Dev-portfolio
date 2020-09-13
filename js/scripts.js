@@ -42,7 +42,7 @@
     });
 
     // Scroll to top
-    $('#to-top').click(function () {
+    $('.to-top').click(function () {
         $('html, body').animate({
             scrollTop: 0
         }, 500);
@@ -50,7 +50,7 @@
 
     // Scroll to first element
     $('#lead-down span').click(function () {
-        var scrollDistance = $('#lead').next().offset().top;
+        var scrollDistance = $('#lead-content').offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
         }, 500);
@@ -101,8 +101,9 @@
         {
             name: "Portfolio",
             description: "Basic responsive HTML landing page for my portfolio",
-            link: "https://github.com/DarrenXu94/simple",
-            imgLink: "https://user-images.githubusercontent.com/16931153/52897620-cebcb680-322a-11e9-9115-b322a993a92e.png"
+            preview: "https://darrenxu.com/",
+            link: "https://github.com/DarrenXu94/new-web",
+            imgLink: "https://user-images.githubusercontent.com/16931153/93014848-df483500-f5f7-11ea-9946-3d29e7386c42.gif"
         },
         {
             name: "Beam Game",
