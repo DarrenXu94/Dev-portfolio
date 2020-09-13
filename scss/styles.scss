@@ -478,7 +478,6 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid $border;
     text-align: center;
 
     h2 {
@@ -502,7 +501,6 @@ footer {
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid $border;
 
     h2 {
         color: $heading-alt;
@@ -631,7 +629,6 @@ footer {
 
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid $border;
     text-align: center;
 
     h2 {
@@ -688,49 +685,119 @@ footer {
 */
 
 #projects {
-    padding: 50px 15px;
-    border-bottom: 1px solid $border;
-    text-align: center;
-
+    padding: 50px 15px 20px 15px;
     h2 {
         color: $heading-alt;
         margin-bottom: 50px;
+        text-align: center;
+        width: 100%;
     }
-}
+    #projects-container {
+        // .project-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
-.project {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto 30px auto;
-    overflow: hidden;
-    background: #fff;
-    border-radius: 4px;
-}
+        // margin: 0px 30px;
+        .project-card {
+            background-color: white;
+            width: 45%;
+            border-radius: 5px;
+            margin: 10px;
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12);
+            position: relative;
+            padding-bottom: 10px;
+            transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            &:hover {
+                box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                    0 3px 14px 2px rgba(0, 0, 0, 0.12);
+            }
+            &__img {
+                & img {
+                    max-height: 100px;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    -o-object-position: 50% 50%;
+                    object-position: 50% 50%;
+                    width: 100%;
+                }
+            }
 
-.project-image {
-    float: left;
-}
+            &__header {
+                padding: 24px 16px;
+                background-color: white;
 
-.project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 300px;
-    padding: 15px;
+                h3 {
+                    margin: 0px;
+                }
+            }
 
-    h3 {
-        font-size: 1.5em;
-        font-weight: 300;
-        color: $heading;
-        margin: 0 0 15px 0;
+            &__content {
+                background-color: white;
+                padding: 16px;
+                padding-top: 0px;
+            }
+
+            &__links {
+                display: flex;
+                justify-content: space-evenly;
+                width: 75%;
+                margin: auto;
+            }
+        }
     }
 
-    p {
-        color: $text;
-        margin: 0 0 15px 0;
-        font-size: 0.9em;
-    }
+    // }
 }
+
+// #projects {
+//     padding: 50px 15px;
+//     border-bottom: 1px solid $border;
+//     text-align: center;
+
+//     h2 {
+//         color: $heading-alt;
+//         margin-bottom: 50px;
+//     }
+// }
+
+// .project {
+//     position: relative;
+//     max-width: 900px;
+//     margin: 0 auto 30px auto;
+//     overflow: hidden;
+//     background: #fff;
+//     border-radius: 4px;
+// }
+
+// .project-image {
+//     float: left;
+// }
+
+// .project-info {
+//     position: absolute;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     margin-left: 300px;
+//     padding: 15px;
+
+//     h3 {
+//         font-size: 1.5em;
+//         font-weight: 300;
+//         color: $heading;
+//         margin: 0 0 15px 0;
+//     }
+
+//     p {
+//         color: $text;
+//         margin: 0 0 15px 0;
+//         font-size: 0.9em;
+//     }
+// }
 
 .no-image {
     .project-info {
