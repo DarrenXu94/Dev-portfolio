@@ -28,9 +28,12 @@
         var heading = $(this).attr('href');
         var scrollDistance = $(heading).offset().top;
 
+        var scrollSpeed = (Math.abs(window.pageYOffset - $(heading).offset().top) / 1) * 0.75
+
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
+        }, scrollSpeed);
+
 
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
@@ -66,7 +69,7 @@
 
         // Add icons to each block
         $this.find('.vtimeline-point').each(function () {
-            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>');
+            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-rocket"></i></div>');
         });
 
         // Add dates to the timeline if exists
