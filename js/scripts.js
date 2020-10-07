@@ -85,6 +85,13 @@
     // Create projects
     const projects = [
         {
+            name: "Choccy Blog",
+            preview: "https://www.choccy.darrenxu.com/",
+            description: "A Gatsby blog hosted on Netlify with custom React components and styling",
+            link: "https://github.com/DarrenXu94/gatsby-starter-netlify-cms",
+            imgLink: "https://user-images.githubusercontent.com/16931153/95315560-5fec0f80-08de-11eb-87f0-0890b4dbb3b4.png"
+        },
+        {
             name: "Full Stack Roadmap",
             preview: "https://roadmapdxu.netlify.com/",
             description: "A full stack web application designed to host basic information about beginning web development. MongoDB hosted on MLab, static site hosted on Netlify",
