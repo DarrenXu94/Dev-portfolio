@@ -139,7 +139,7 @@
             description: "Promotional responsive website for a band. Created using node-sass and HTML5.",
             link: "https://github.com/DarrenXu94/edhunting",
             imgLink: "https://user-images.githubusercontent.com/16931153/54064176-2c5e8480-4266-11e9-8224-dd11705a28e5.png"
-        }
+        },
     ]
 
     const projectSelector = $('#projects-container');
