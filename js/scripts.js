@@ -87,9 +87,16 @@
         {
             name: "Choccy Blog",
             preview: "https://www.choccy.darrenxu.com/",
-            description: "A Gatsby blog hosted on Netlify with custom React components and styling",
+            description: "Hear about my latest hard hitting choccy reviews. A Gatsby blog hosted on Netlify with custom React components and styling",
             link: "https://github.com/DarrenXu94/gatsby-starter-netlify-cms",
             imgLink: "https://user-images.githubusercontent.com/16931153/95315560-5fec0f80-08de-11eb-87f0-0890b4dbb3b4.png"
+        },
+        {
+            name: "Will it Cereal?",
+            preview: "https://willitcereal.darrenxu.com/",
+            description: "A fun blog where I see what food goes well as a cereal. Another Gatsby blog using the same tools as the Choccy Blog",
+            link: "https://github.com/DarrenXu94/will-it-cereal",
+            imgLink: "https://user-images.githubusercontent.com/16931153/102003406-3bd40100-3d5b-11eb-8256-d0e6d635f06f.png"
         },
         {
             name: "Full Stack Roadmap",
@@ -132,13 +139,6 @@
             description: "Promotional responsive website for a band. Created using node-sass and HTML5.",
             link: "https://github.com/DarrenXu94/edhunting",
             imgLink: "https://user-images.githubusercontent.com/16931153/54064176-2c5e8480-4266-11e9-8224-dd11705a28e5.png"
-        },
-        {
-            name: "Song REST api",
-            preview: "https://song-rest-api.herokuapp.com/docs/",
-            description: "REST api for a MongoDB song database with a SwaggerUI frontend",
-            link: "https://github.com/DarrenXu94/song-rest-api",
-            imgLink: 'https://user-images.githubusercontent.com/16931153/52907221-ec346380-32b0-11e9-9724-3b0ba84389e1.png'
         }
     ]
 
