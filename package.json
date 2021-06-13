@@ -14,7 +14,7 @@
     "coding",
     "dev"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Darren Xu",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
