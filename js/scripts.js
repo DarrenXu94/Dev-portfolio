@@ -113,6 +113,13 @@
             imgLink: "https://user-images.githubusercontent.com/16931153/52897620-cebcb680-322a-11e9-9115-b322a993a92e.png"
         },
         {
+            name: "DBScan Visualisation",
+            description: "CanvasJS representation of the DBScan algorithm",
+            preview: "https://darrenxu94.github.io/dbscan-visualiser/",
+            link: "https://github.com/DarrenXu94/dbscan-visualiser",
+            imgLink: "https://user-images.githubusercontent.com/16931153/121803918-fac79580-cc86-11eb-91a0-c3a548ce45d8.png"
+        },
+        {
             name: "Portfolio",
             description: "Basic responsive HTML landing page for my portfolio",
             preview: "https://darrenxu.com/",
