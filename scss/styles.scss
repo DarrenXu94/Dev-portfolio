@@ -847,6 +847,15 @@ footer {
   }
 }
 
+#skills-container {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 /*
     -------------------------------
     ----- 10. Footer Styles -----
@@ -1104,4 +1113,54 @@ footer {
   display: block;
   width: calc(123% + 1.3px);
   height: 52px;
+}
+
+.hover-btn-diagonal {
+  cursor: default;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 1px solid currentColor;
+  text-decoration: none;
+  line-height: 2rem;
+  color: black;
+  color: $background-alt;
+  > span {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+  }
+  &:before {
+    right: -50px;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #2c3938;
+    transform: translateX(-100%);
+  }
+  &:after {
+    left: -50px;
+    border-left: 50px solid transparent;
+    border-top: 80px solid #2c3938;
+    transform: translateX(100%);
+  }
+  &:hover {
+    color: #d2d7d7;
+  }
+  &:hover:before {
+    transform: translateX(-49%);
+  }
+  &:hover:after {
+    transform: translateX(49%);
+  }
 }

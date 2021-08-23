@@ -217,6 +217,38 @@
     </div>`);
   });
 
+  const skills = [
+    "JavaScript",
+    "TypeScript",
+    "Bash",
+    "Powershell",
+    "Python",
+    "NodeJs",
+    "Angular",
+    "React",
+    "VueJs",
+    "Microsoft Azure",
+    "SharePoint",
+    "NoSQL (MongoDB)",
+    "SQL (MySQL)",
+    "Elasticsearch",
+    "Docker",
+    "Artifactory",
+    "Apache Nifi",
+    "Apache Server",
+    "RabbitMQ",
+    "SASS",
+  ];
+
+  const skillSelector = $("#skills-container");
+  skills.forEach(function (skill) {
+    skillSelector.append(`<a class="hover-btn-diagonal" href="#">
+    <span>
+        ${skill}
+    </span>
+    </a>`);
+  });
+
   // Open mobile menu
   $("#mobile-menu-open").click(function () {
     $("header, body").addClass("active");
