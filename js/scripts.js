@@ -101,7 +101,7 @@
   const projects = [
     {
       name: "Choccy Blog",
-      preview: "https://www.choccy.darrenxu.com/",
+      preview: "https://choccy.darrenxu.com/",
       description:
         "Hear about my latest hard hitting choccy reviews. A Gatsby blog hosted on Netlify with custom React components and styling",
       link: "https://github.com/DarrenXu94/gatsby-starter-netlify-cms",
@@ -143,14 +143,7 @@
       imgLink:
         "https://user-images.githubusercontent.com/16931153/121803918-fac79580-cc86-11eb-91a0-c3a548ce45d8.png",
     },
-    {
-      name: "Portfolio",
-      description: "Basic responsive HTML landing page for my portfolio",
-      preview: "https://darrenxu.com/",
-      link: "https://github.com/DarrenXu94/new-web",
-      imgLink:
-        "https://user-images.githubusercontent.com/16931153/93014848-df483500-f5f7-11ea-9946-3d29e7386c42.gif",
-    },
+
     {
       name: "Beam Game",
       preview: "https://darrenxu94.github.io/Beam/",
