@@ -448,12 +448,12 @@ footer {
     border: 3px solid lighten($base-color, 25%);
     text-align: center;
   }
+}
 
-  i {
-    animation: pulsate 1.5s ease;
-    animation-iteration-count: infinite;
-    padding-top: 5px;
-  }
+i[class*="fa-chevron-"] {
+  animation: pulsate 1.5s ease;
+  animation-iteration-count: infinite;
+  padding-top: 5px;
 }
 
 @keyframes pulsate {
