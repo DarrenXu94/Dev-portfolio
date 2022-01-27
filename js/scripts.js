@@ -15,6 +15,20 @@
     once: true,
   });
 
+  // Lead animation
+
+  VANTA.RINGS({
+    el: "#vanta-lead",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.0,
+    minWidth: 200.0,
+    scale: 1.0,
+    scaleMobile: 1.0,
+    backgroundColor: 0x2f3d3b,
+  });
+
   // Remove no-js class
   $("html").removeClass("no-js");
 
@@ -55,7 +69,7 @@
 
   // Scroll to first element
   $("#lead-down span").click(function () {
-    var scrollDistance = $("#lead-content").offset().top;
+    var scrollDistance = $("#about").offset().top;
     $("html, body").animate(
       {
         scrollTop: scrollDistance + "px",
