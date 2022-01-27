@@ -29,6 +29,8 @@
     backgroundColor: 0x2f3d3b,
   });
 
+  // End
+
   // Remove no-js class
   $("html").removeClass("no-js");
 
