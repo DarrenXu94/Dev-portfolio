@@ -116,6 +116,22 @@
   // Create projects
   const projects = [
     {
+      name: "Public API Displayer",
+      preview: "https://publicapi.darrenxu.com/",
+      description: "A site with a list of public free to use APIs",
+      link: "https://github.com/DarrenXu94/public-api-displayer",
+      imgLink:
+        "https://user-images.githubusercontent.com/16931153/152439824-e5c4938b-46b3-481e-9484-5381b9889b53.png",
+    },
+    {
+      name: "ThreeJS Portfolio",
+      preview: "https://three.darrenxu.com/",
+      description: "A demo site I made to test the skills I learn with ThreeJS",
+      link: "https://github.com/DarrenXu94/portfolio-three",
+      imgLink:
+        "https://user-images.githubusercontent.com/16931153/152464662-efa1c33a-fe37-48c8-a500-f8a582def05d.png",
+    },
+    {
       name: "Choccy Blog",
       preview: "https://choccy.darrenxu.com/",
       description:
