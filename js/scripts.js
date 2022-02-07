@@ -138,7 +138,7 @@
         "Scrolling example using GSAP and TweenMagic to play a video on scroll",
       link: "https://github.com/DarrenXu94/video-play-on-scroll",
       imgLink:
-        "https://user-images.githubusercontent.com/16931153/152889189-1ce48bac-9757-4d32-bd44-7650cfe44739.png",
+        "https://user-images.githubusercontent.com/16931153/152892113-588e2684-e50f-4d7a-a49e-b188383723a0.gif",
     },
     {
       name: "Choccy Blog",
