@@ -132,6 +132,15 @@
         "https://user-images.githubusercontent.com/16931153/152464662-efa1c33a-fe37-48c8-a500-f8a582def05d.png",
     },
     {
+      name: "Video Play on Scroll",
+      preview: "https://scroll.darrenxu.com/",
+      description:
+        "Scrolling example using GSAP and TweenMagic to play a video on scroll",
+      link: "https://github.com/DarrenXu94/video-play-on-scroll",
+      imgLink:
+        "https://user-images.githubusercontent.com/16931153/152889189-1ce48bac-9757-4d32-bd44-7650cfe44739.png",
+    },
+    {
       name: "Choccy Blog",
       preview: "https://choccy.darrenxu.com/",
       description:
