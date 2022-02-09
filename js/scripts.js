@@ -129,7 +129,15 @@
       description: "A demo site I made to test the skills I learn with ThreeJS",
       link: "https://github.com/DarrenXu94/portfolio-three",
       imgLink:
-        "https://user-images.githubusercontent.com/16931153/152464662-efa1c33a-fe37-48c8-a500-f8a582def05d.png",
+        "https://user-images.githubusercontent.com/16931153/153305187-925194ac-78dc-4833-93fc-ea992a2183f6.gif",
+    },
+    {
+      name: "Framer Motion Page Transition",
+      preview: "https://framer-transition.darrenxu.com/",
+      description: "Framer Motion page transition swipe effect",
+      link: "https://github.com/DarrenXu94/framer-page-transition",
+      imgLink:
+        "https://user-images.githubusercontent.com/16931153/153304883-8810675f-9553-4ce0-b3ab-915ce859a7a5.gif",
     },
     {
       name: "Video Play on Scroll",
