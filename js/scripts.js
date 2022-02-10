@@ -132,6 +132,15 @@
         "https://user-images.githubusercontent.com/16931153/153305187-925194ac-78dc-4833-93fc-ea992a2183f6.gif",
     },
     {
+      name: "LottieWeb Scroll",
+      preview: "https://lottietest.darrenxu.com/",
+      description:
+        "A demo site exploring LottieFiles, GSAP and scroll animations",
+      link: "https://github.com/DarrenXu94/lottie-testing",
+      imgLink:
+        "https://user-images.githubusercontent.com/16931153/153337587-6a08bd36-fbd4-40af-881a-39301803acf2.gif",
+    },
+    {
       name: "Framer Motion Page Transition",
       preview: "https://framer-transition.darrenxu.com/",
       description: "Framer Motion page transition swipe effect",
