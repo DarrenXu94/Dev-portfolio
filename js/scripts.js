@@ -124,6 +124,15 @@
         "https://user-images.githubusercontent.com/16931153/152439824-e5c4938b-46b3-481e-9484-5381b9889b53.png",
     },
     {
+      name: "Spritesheet Cropper",
+      preview: "https://spritesheet-cropper.vercel.app/",
+      description:
+        "NextJS app that cuts a single spritesheet into individual images",
+      link: "https://github.com/DarrenXu94/spritesheet-cropper",
+      imgLink:
+        "https://user-images.githubusercontent.com/16931153/154889161-407b1040-2c15-48c9-8148-416af6ce60c7.png",
+    },
+    {
       name: "ThreeJS Portfolio",
       preview: "https://three.darrenxu.com/",
       description: "A demo site I made to test the skills I learn with ThreeJS",
