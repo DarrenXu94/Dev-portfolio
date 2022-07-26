@@ -45,6 +45,5 @@ gulp.task("styles", function () {
 
 gulp.task("watch", function () {
   gulp.watch("./js/scripts.js", gulp.series("scripts"));
-  gulp.watch("./js/animation.js", gulp.series("animation"));
   gulp.watch("./scss/styles.scss", gulp.series("styles"));
 });
