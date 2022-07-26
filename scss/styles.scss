@@ -56,6 +56,12 @@ $text-alt: #fff;
     ---------------------
 */
 
+@mixin dottedBG {
+  background-image: radial-gradient($base-color 1px, transparent 0);
+  background-size: 80px 80px;
+  background-position: -19px -19px;
+}
+
 @mixin transition($duration: 0.5s, $func: ease, $property: all) {
   transition: #{$duration} #{$func} #{$property};
 }
@@ -514,6 +520,7 @@ i[class*="fa-chevron-"] {
 */
 
 #experience {
+  @include dottedBG;
   padding: 50px 15px;
   text-align: center;
 
@@ -700,6 +707,8 @@ i[class*="fa-chevron-"] {
 */
 
 #projects {
+  @include dottedBG;
+
   padding: 50px 15px 20px 15px;
   h2 {
     color: $heading-alt;
