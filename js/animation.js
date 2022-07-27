@@ -12,3 +12,25 @@ var tl = gsap.timeline({
 
 var tween = gsap.fromTo("#projects", { scale: 1 }, { scale: 0.9 });
 tl.add(tween);
+
+gsap.fromTo(
+  "#lead-content",
+  { scale: 1.05 },
+  { scale: 1, duration: 2, repeat: -1, yoyo: true }
+);
+
+var tl2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#projects",
+    scrub: 1,
+    toggleActions: "play reverse play reverse",
+    end: "bottom 80%",
+  },
+});
+
+var tween2 = gsap.fromTo(
+  ".project-card",
+  { y: 100, autoAlpha: 0 },
+  { y: 0, autoAlpha: 1, stagger: 0.1 }
+);
+tl2.add(tween2);

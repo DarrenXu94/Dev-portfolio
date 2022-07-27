@@ -12,7 +12,7 @@
 
 (function ($) {
   AOS.init({
-    once: true,
+    // once: true,
   });
 
   // Lead animation
@@ -240,8 +240,8 @@
   ];
 
   const projectSelector = $("#projects-container");
-  projects.forEach(function (project) {
-    projectSelector.append(`<div class="project-card">
+  projects.forEach(function (project, index) {
+    projectSelector.append(`<div class="project-card" data-index="${index}">
         <div class="project-card__img">
             <img src="${project.imgLink}"
                 alt="">
