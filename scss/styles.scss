@@ -545,6 +545,7 @@ i[class*="fa-chevron-"] {
     height: 100%;
     width: 3px;
     background: $base-color;
+    background: linear-gradient(to top, $base-color 90%, rgba($base-color, 0));
     z-index: 0;
   }
 

@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-var tl = gsap.timeline({
+const projectShrinkTimeline = gsap.timeline({
   scrollTrigger: {
     trigger: "#projects",
     markers: false,
@@ -10,8 +10,8 @@ var tl = gsap.timeline({
   },
 });
 
-var tween = gsap.fromTo("#projects", { scale: 1 }, { scale: 0.9 });
-tl.add(tween);
+const shrinkTween = gsap.fromTo("#projects", { scale: 1 }, { scale: 0.9 });
+projectShrinkTimeline.add(shrinkTween);
 
 gsap.fromTo(
   "#lead-content",
@@ -19,7 +19,7 @@ gsap.fromTo(
   { scale: 1, duration: 2, repeat: -1, yoyo: true }
 );
 
-var tl2 = gsap.timeline({
+const projectTimeline = gsap.timeline({
   scrollTrigger: {
     trigger: "#projects",
     scrub: 1,
@@ -28,9 +28,26 @@ var tl2 = gsap.timeline({
   },
 });
 
-var tween2 = gsap.fromTo(
+const projectCardTween = gsap.fromTo(
   ".project-card",
   { y: 100, autoAlpha: 0 },
   { y: 0, autoAlpha: 1, stagger: 0.1 }
 );
-tl2.add(tween2);
+projectTimeline.add(projectCardTween);
+
+const experienceTimeline = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#experience",
+    scrub: 1,
+    toggleActions: "play reverse play reverse",
+    end: "bottom 70%",
+  },
+});
+
+const experienceCardTween = gsap.fromTo(
+  ".vtimeline-point",
+  { y: 200, autoAlpha: 0 },
+  { y: 0, autoAlpha: 1, stagger: 0.1 }
+);
+
+experienceTimeline.add(experienceCardTween);

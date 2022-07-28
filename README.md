@@ -24,3 +24,6 @@ Deployed on Netlify with automatic deploys on the master branch
 ## Make gifs from screen recordings
 
 ffmpeg -i filename am.mov -s 600x400 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=10 > out.gif
+
+## Todo
+Tools I like to use section

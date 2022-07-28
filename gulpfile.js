@@ -6,9 +6,9 @@ const wait = require("gulp-wait");
 const babel = require("gulp-babel");
 const rename = require("gulp-rename");
 
-gulp.task("scripts", function () {
-  return gulp
-    .src("./js/scripts.js")
+const renderWatch = (dest) =>
+  gulp
+    .src(dest)
     .pipe(
       plumber(
         plumber({
@@ -33,6 +33,13 @@ gulp.task("scripts", function () {
     )
     .pipe(rename({ extname: ".min.js" }))
     .pipe(gulp.dest("./js"));
+
+gulp.task("scripts", function () {
+  return renderWatch("./js/scripts.js");
+});
+
+gulp.task("animation", function () {
+  return renderWatch("./js/animation.js");
 });
 
 gulp.task("styles", function () {
@@ -45,5 +52,6 @@ gulp.task("styles", function () {
 
 gulp.task("watch", function () {
   gulp.watch("./js/scripts.js", gulp.series("scripts"));
+  gulp.watch("./js/animation.js", gulp.series("animation"));
   gulp.watch("./scss/styles.scss", gulp.series("styles"));
 });
