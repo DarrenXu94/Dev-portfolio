@@ -282,6 +282,7 @@
     "TypeScript",
     "NodeJs",
     "React",
+    "NextJS",
     "VueJs",
     "SharePoint",
     "Elasticsearch",
@@ -291,6 +292,9 @@
     "Agile methodologies",
     "Software testing",
     "Component libraries",
+    "GSAP",
+    "Framer motion",
+    "Three.js",
   ];
 
   const skillSelector = $("#skills-container");
