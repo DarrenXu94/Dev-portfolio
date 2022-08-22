@@ -27,3 +27,4 @@ ffmpeg -i filename am.mov -s 600x400 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --
 
 ## Todo
 Tools I like to use section
+Parallax header
