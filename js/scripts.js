@@ -116,6 +116,14 @@
   // Create projects
   const projects = [
     {
+      name: "Stocky timeline",
+      preview: "https://www.stocky.darrenxu.com/",
+      description: "A timeline of the Stocky sharehouse",
+      link: "https://github.com/DarrenXu94/vue-stocky",
+      imgLink:
+        "https://user-images.githubusercontent.com/16931153/200778136-acf23bf0-7036-49de-b292-3ef31f9e082a.png",
+    },
+    {
       name: "Public API Displayer",
       preview: "https://publicapi.darrenxu.com/",
       description: "A site with a list of public free to use APIs",
