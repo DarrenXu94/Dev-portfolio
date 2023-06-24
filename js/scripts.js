@@ -116,6 +116,14 @@
   // Create projects
   const projects = [
     {
+      name: "Civic lunch",
+      preview: "https://www.civic-lunch.darrenxu.com/",
+      description: "A foodie's journey through lunch",
+      link: "https://github.com/DarrenXu94/awake-template",
+      imgLink:
+        "https://github.com/DarrenXu94/awake-template/assets/16931153/6735407b-1caa-4d3a-b642-1944c82f3938",
+    },
+    {
       name: "Stocky timeline",
       preview: "https://www.stocky.darrenxu.com/",
       description: "A timeline of the Stocky sharehouse",
