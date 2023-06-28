@@ -132,6 +132,14 @@
         "https://user-images.githubusercontent.com/16931153/200778136-acf23bf0-7036-49de-b292-3ef31f9e082a.png",
     },
     {
+      name: "Futsal scrape",
+      preview: "https://futsal.darrenxu.com/",
+      description: "Scraping a poorly built website for my own use",
+      link: "https://github.com/DarrenXu94/astro-dribl",
+      imgLink:
+        "https://github.com/DarrenXu94/astro-dribl/assets/16931153/2b16e29a-c443-4623-91cd-6c4843514a65",
+    },
+    {
       name: "Public API Displayer",
       preview: "https://publicapi.darrenxu.com/",
       description: "A site with a list of public free to use APIs",
