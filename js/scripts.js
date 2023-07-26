@@ -126,10 +126,10 @@
     {
       name: "Stocky timeline",
       preview: "https://www.stocky.darrenxu.com/",
-      description: "A timeline of the Stocky sharehouse",
+      description: "A timeline of the Stocky sharehouse (RIP)",
       link: "https://github.com/DarrenXu94/vue-stocky",
       imgLink:
-        "https://user-images.githubusercontent.com/16931153/200778136-acf23bf0-7036-49de-b292-3ef31f9e082a.png",
+        "https://github.com/DarrenXu94/vue-stocky/assets/16931153/34314548-d38c-4da3-9839-14a7bce10c35",
     },
     {
       name: "Futsal scrape",
