@@ -1132,6 +1132,15 @@ i[class*="fa-chevron-"] {
   &--white .shape-fill {
     fill: #ffffff;
   }
+
+  &--alt .shape-fill {
+    fill: $background-alt;
+  }
+
+  &:not(.shape-divider--alt) svg {
+    background-color: $background-alt;
+  }
+
 }
 
 .shape-divider svg {
@@ -1139,10 +1148,10 @@ i[class*="fa-chevron-"] {
   display: block;
   width: calc(123% + 1.3px);
   height: 52px;
-  background-color: $background-alt;
-  path {
-    fill: white;
-  }
+
+  // path {
+  //   fill: white;
+  // }
 }
 
 .hover-btn-diagonal {
