@@ -117,7 +117,7 @@
   const projects = [
     {
       name: "Civic lunch",
-      preview: "https://www.civic-lunch.darrenxu.com/",
+      preview: "https://civic-lunch.darrenxu.com/",
       description: "A foodie's journey through lunch",
       link: "https://github.com/DarrenXu94/awake-template",
       imgLink:
