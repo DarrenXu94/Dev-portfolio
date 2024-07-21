@@ -116,7 +116,15 @@
   // Create projects
   const projects = [
     {
-      name: "Civic lunch",
+      name: "Civic lunch V2",
+      preview: "https://lunch.darrenxu.com/",
+      description: "A foodie's journey through lunch",
+      link: "https://github.com/DarrenXu94/new-civic-lunch",
+      imgLink:
+        "https://github.com/user-attachments/assets/83836305-7c04-4cbe-a264-12846877f64a",
+    },
+    {
+      name: "Civic lunch V1",
       preview: "https://civic-lunch.darrenxu.com/",
       description: "A foodie's journey through lunch",
       link: "https://github.com/DarrenXu94/awake-template",
