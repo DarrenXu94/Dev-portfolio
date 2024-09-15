@@ -132,6 +132,22 @@
         "https://github.com/DarrenXu94/awake-template/assets/16931153/6735407b-1caa-4d3a-b642-1944c82f3938",
     },
     {
+      name: "Wordle animal ripoff",
+      preview: "https://animalle.darrenxu.com/",
+      description: "A wordle ripoff with animals",
+      link: "https://github.com/DarrenXu94/animalle",
+      imgLink:
+        "https://github.com/user-attachments/assets/b2c4db32-4d4c-4684-b97d-b1899116d1a9",
+    },
+    {
+      name: "Cookbook using Notion API",
+      preview: "https://cookbook.darrenxu.com/",
+      description: "A cookbook site using the Notion API",
+      link: "https://github.com/DarrenXu94/vue-cookbook",
+      imgLink:
+        "https://github.com/user-attachments/assets/c1f1b99f-1e5f-4536-8a2e-ee56ad2f6274",
+    },
+    {
       name: "Stocky timeline",
       preview: "https://www.stocky.darrenxu.com/",
       description: "A timeline of the Stocky sharehouse (RIP)",
@@ -217,24 +233,6 @@
         "https://user-images.githubusercontent.com/16931153/102003406-3bd40100-3d5b-11eb-8256-d0e6d635f06f.png",
     },
     {
-      name: "Full Stack Roadmap",
-      preview: "https://roadmapdxu.netlify.com/",
-      description:
-        "A full stack web application designed to host basic information about beginning web development. MongoDB hosted on MLab, static site hosted on Netlify",
-      link: "https://github.com/DarrenXu94/roadmap",
-      imgLink:
-        "https://user-images.githubusercontent.com/16931153/50616987-0d2e3880-0f3f-11e9-8ead-3b7b83a34c89.png",
-    },
-    {
-      name: "Interactive Currency Converter",
-      preview: "https://currency-convertor.netlify.com/",
-      description:
-        "LWebsite that converts currency using an API and also shows the locations on a map",
-      link: "https://github.com/DarrenXu94/interactive-currency-converter",
-      imgLink:
-        "https://user-images.githubusercontent.com/16931153/52897620-cebcb680-322a-11e9-9115-b322a993a92e.png",
-    },
-    {
       name: "DBScan Visualisation",
       description: "CanvasJS representation of the DBScan algorithm",
       preview: "https://darrenxu94.github.io/dbscan-visualiser/",
@@ -252,22 +250,13 @@
         "https://user-images.githubusercontent.com/16931153/50622683-585a4280-0f63-11e9-944c-88d82733d9ba.gif",
     },
     {
-      name: "Splitscreen Slider",
-      preview: "https://darrenxu94.github.io/splitscreen-slider/",
+      name: "Web developer roadmap",
+      preview: "https://roadmapdxu.netlify.app/",
       description:
-        "Basic HTML, CSS and JS website that animates a bar based on mouse movement",
-      link: "https://github.com/DarrenXu94/splitscreen-slider",
+        "Explore a comprehensive web developer roadmap that lists essential technologies, outlining their basic functions and roles in web development. Perfect for beginners and professionals looking to stay updated.",
+      link: "https://github.com/DarrenXu94/roadmap",
       imgLink:
-        "https://user-images.githubusercontent.com/16931153/50621755-27c2da80-0f5c-11e9-92c2-62e9d5647b39.gif",
-    },
-    {
-      name: "Promotional Band Website",
-      preview: "https://edhunting.netlify.com/",
-      description:
-        "Promotional responsive website for a band. Created using node-sass and HTML5.",
-      link: "https://github.com/DarrenXu94/edhunting",
-      imgLink:
-        "https://user-images.githubusercontent.com/16931153/54064176-2c5e8480-4266-11e9-8224-dd11705a28e5.png",
+        "https://user-images.githubusercontent.com/16931153/50617009-2931da00-0f3f-11e9-9d06-d2cf2f6daf20.png",
     },
   ];
 
